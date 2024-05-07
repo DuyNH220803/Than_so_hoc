@@ -165,7 +165,6 @@ def format_date(day, month, year):
     formatted_month = str(month).zfill(2)
     formatted_year = str(year)
     return f"{formatted_day}/{formatted_month}/{formatted_year}"
-
 def main():
     st.title("Ứng dụng Tính Thần Số Học")
     # Hàng nhập ngày tháng năm
